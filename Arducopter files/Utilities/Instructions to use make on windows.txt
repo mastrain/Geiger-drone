@@ -1,0 +1,12 @@
+http://dev.ardupilot.com/wiki/building-ardupilot-for-apm2-x-on-windows-with-make/
+
+ardupilot-ArduCopter-3.2.1 	contains the last usable stable versión of Ardupilot for our controller board APM2.7
+•	git clone https://github.com/diydrones/ardupilot.git
+•	Checkout the branch you want to build (the last branch you can use for Copter is shown below):
+•	cd ardupilot
+git checkout ArduCopter-3.2.1
+
+ArduPilot-Arduino-1.0.3-gcc-4.8.2-windows	is the Windows versión of Arduino that suports make.
+Needs to be instaled and linked in eclipse to build code.
+
+px4_toolchain_installer_v14_win	 is the ARM toolchain eclipse needs to build the code..
